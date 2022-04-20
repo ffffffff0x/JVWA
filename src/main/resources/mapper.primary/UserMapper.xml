@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ffffffff0x.exploit.p.mapper.UserMapperPrimary">
+
+    <select id="AllUser" resultType="com.ffffffff0x.exploit.p.entity.UserPrimary">
+        select * from USER
+    </select>
+
+    <select id="findById" resultType="com.ffffffff0x.exploit.p.entity.UserPrimary">
+        select * from USER where id = ${id}
+    </select>
+
+    <insert id="insert">
+        INSERT INTO USER(NAME, AGE) VALUES(#{name}, #{age})
+    </insert>
+
+</mapper>
