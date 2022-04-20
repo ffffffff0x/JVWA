@@ -22,8 +22,7 @@ java 代码审计学习靶场,边学边完善
 - postgresql注入
   - `http://127.0.0.1:8777/user/postgre/getbyid/1`
 - url跳转漏洞
-  - `http://127.0.0.1:8777/redirect/1?url=https://home.ffffffff0x.com` 无过滤
-  - `http://127.0.0.1:8777/redirect/2?url=https://home.ffffffff0x.com` 黑名单过滤
-  - `http://127.0.0.1:8777/redirect/3?url=https://home.ffffffff0x.com` 可以被绕过的白名单案例
-  - `http://127.0.0.1:8777/redirect/4?url=https://home.ffffffff0x.com` 反斜杠绕过
-  - `http://127.0.0.1:8777/redirect/5?url=https://home.ffffffff0x.com` 安全案例
+  - `http://127.0.0.1:8777/redirect/1?url=` 无过滤
+  - `http://127.0.0.1:8777/redirect/2?url=` 可以被绕过的白名单案例
+  - `http://127.0.0.1:8777/redirect/3?url=` 反斜杠绕过
+  - `http://127.0.0.1:8777/redirect/safe?url=` 安全案例
