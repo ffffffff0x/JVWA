@@ -4,7 +4,7 @@ java 代码审计学习靶场,边学边完善
 
 ## 目前支持
 
-- spring actuator
+- spring actuator (web 和 jmx 方式)
   - `http://127.0.0.1:8777/actuator`
   - `http://127.0.0.1:8777/actuator/env`
   - `http://127.0.0.1:8777/actuator/heapdump`
@@ -16,7 +16,7 @@ java 代码审计学习靶场,边学边完善
 - druid
   - `http://127.0.0.1:8777/druid/login.html` admin/admin
 - spel注入
-  - `http://127.0.0.1:8777/spel?ex=1`
+  - `http://127.0.0.1:8777/spel?exec=1`
 - mysql注入
   - `http://127.0.0.1:8777/user/mysql/getbyid/1`
 - postgresql注入
