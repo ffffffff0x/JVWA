@@ -26,3 +26,4 @@ java 代码审计学习靶场,边学边完善
   - `http://127.0.0.1:8777/redirect/2?url=` 可以被绕过的白名单案例
   - `http://127.0.0.1:8777/redirect/3?url=` 反斜杠绕过
   - `http://127.0.0.1:8777/redirect/safe?url=` 安全案例
+- log4j
