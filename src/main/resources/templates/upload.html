@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8" />
+    <title>文件上传页面</title>
+</head>
+<body>
+<h1>无过滤上传点</h1>
+<form method="post" action="/upload" enctype="multipart/form-data">
+    选择要上传的文件：<input type="file" name="file"><br>
+    <hr>
+    <input type="submit" value="提交">
+</form>
+
+</br>
+
+<h1>黑名单过滤上传点</h1>
+<form method="post" action="/upload2" enctype="multipart/form-data">
+    选择要上传的文件：<input type="file" name="file"><br>
+    <hr>
+    <input type="submit" value="提交">
+</form>
+
+</br>
+
+<h1>安全文件上传点</h1>
+<form method="post" action="/safeupload" enctype="multipart/form-data">
+    选择要上传的文件：<input type="file" name="file"><br>
+    <hr>
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>
