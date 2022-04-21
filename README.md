@@ -9,6 +9,7 @@ java 代码审计学习靶场,边学边完善
   - `http://127.0.0.1:8999/actuator/env`
   - `http://127.0.0.1:8999/actuator/heapdump`
   - `http://127.0.0.1:8999/actuator/mappings`
+  - `http://127.0.0.1:8999/actuator/prometheus`
 - swagger
   - `http://127.0.0.1:8999/swagger-resources`
   - `http://127.0.0.1:8999/swagger-ui.html`
