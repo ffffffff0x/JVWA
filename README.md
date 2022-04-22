@@ -17,11 +17,11 @@ java 代码审计学习靶场,边学边完善
 - druid
   - `http://127.0.0.1:8999/druid/login.html` admin/admin
 - spel注入
-  - `http://127.0.0.1:8999/spel?exec=1`
+  - `http://127.0.0.1:8999/spel?exec=1` 无过滤
 - mysql注入
-  - `http://127.0.0.1:8999/user/mysql/getbyid/1`
+  - `http://127.0.0.1:8999/user/mysql/getbyid/1` 无过滤
 - postgresql注入
-  - `http://127.0.0.1:8999/user/postgre/getbyid/1`
+  - `http://127.0.0.1:8999/user/postgre/getbyid/1` 无过滤
 - url跳转漏洞
   - `http://127.0.0.1:8999/redirect/1?url=` 无过滤
   - `http://127.0.0.1:8999/redirect/2?url=` 可以被绕过的白名单案例

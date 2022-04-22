@@ -25,6 +25,48 @@
 
 </br>
 
+<h2>信息泄漏</h2>
+<div class="recipe_details">
+	<ul>
+		<li>spring actuator</a></li>
+			<p>/actuator</p>
+			<p>/actuator/env</p>
+			<p>/actuator/heapdump</p>
+			<p>/actuator/mappings</p>
+			<p>/actuator/prometheus</p>
+		<li>swagger</a></li>
+			<p>/swagger-resources</p>
+			<p>/swagger-ui.html</p>
+			<p>/v2/api-docs</p>
+		<li>druid</a></li>
+			<p>/druid/login.html</p>
+	</ul>
+</div>
+
+<h2>spel注入</h2>
+<div class="recipe_details">
+	<ul>
+		<li>无过滤</a></li>
+			<p>/spel?exec=1</p>
+	</ul>
+</div>
+
+<h2>mysql注入</h2>
+<div class="recipe_details">
+	<ul>
+		<li>无过滤</a></li>
+			<p>/user/mysql/getbyid/1</p>
+	</ul>
+</div>
+
+<h2>postgresql注入</h2>
+<div class="recipe_details">
+	<ul>
+		<li>无过滤</a></li>
+			<p>/user/postgre/getbyid/1</p>
+	</ul>
+</div>
+
 <h2>url跳转漏洞</h2>
 <div class="recipe_details">
 	<ul>
