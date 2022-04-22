@@ -1,26 +1,50 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8" />
-    <title></title>
-    <link rel="stylesheet" href="./test.css">
+
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FFFFFFFF0X</title>
+    <meta charset="UTF-8">
+	<link rel="shortcut icon" href="./img/ffffffff0x-64.ico" type="image/x-icon">
+	<link type="text/css" rel="stylesheet" href="./css/index.css">
 </head>
-<body>
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
-<div class="content">
-    <div class="content__container">
-        <p class="content__container__text">
-            Hello
-        </p>
+<h1>JVWA 代码审计学习环境</h1>
+<figure>
+	<img src="./img/stephane-wootha-richard-february-01.jpg">
+</figure>
 
-        <ul class="content__container__list">
-            <li class="content__container__list__item">world !</li>
-            <li class="content__container__list__item">张三 !</li>
-            <li class="content__container__list__item">李四 !</li>
-            <li class="content__container__list__item">everybody !</li>
-        </ul>
-    </div>
+<div class="description">
+	<p>简简单单,没有套路</p>
+	<figure>
+		<img src="./img/3.gif">
+	</figure>
 </div>
-</body>
-</html>
+
+</br>
+
+<h2>url跳转漏洞</h2>
+<div class="recipe_details">
+	<ul>
+		<li>无过滤</li>
+            <p>/redirect/1?url=https://home.ffffffff0x.com</p>
+		<li>可以被绕过的白名单案例</li>
+            <p>/redirect/2?url=https://home.ffffffff0x.com</p>
+		<li>反斜杠绕过</li>
+            <p>/redirect/3?url=https://home.ffffffff0x.com</p>
+        <li>安全案例</li>
+            <p>/redirect/safe?url=https://home.ffffffff0x.com</p>
+    </ul>
+</div>
+
+<h2>文件上传</h2>
+<div class="recipe_details">
+	<ul>
+		<li>无过滤/黑名单过滤/白名单过滤/安全案例</a></li>
+			<p>/upload</p>
+	</ul>
+</div>
+
+<p class="variation">提示: 参考配套教程</p>
