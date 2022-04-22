@@ -1,7 +1,7 @@
 # todo
 
 - [x] 文件上传
-- [ ] ssrf
+- [x] ssrf
 - [ ] xss
 - [ ] rce
 - [ ] ssti
