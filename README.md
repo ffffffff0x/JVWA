@@ -50,3 +50,4 @@ todo
 - [j3ers3/Hello-Java-Sec](https://github.com/j3ers3/Hello-Java-Sec)
 - [javaweb-rasp/javaweb-vuln](https://github.com/javaweb-rasp/javaweb-vuln)
 - [LandGrey/SpringBootVulExploit](https://github.com/LandGrey/SpringBootVulExploit)
+- [JoyChou93/java-sec-code](https://github.com/JoyChou93/java-sec-code)
