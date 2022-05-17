@@ -4,7 +4,7 @@
 - [x] ssrf
 - [ ] xss
 - [ ] rce
-- [ ] ssti
+- [x] ssti
 - [ ] xxe
 - [ ] 目录遍历
 - [ ] fastjson

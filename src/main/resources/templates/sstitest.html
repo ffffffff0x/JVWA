@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ssti</title>
+</head>
+<body>
+    <span th:text="'Hello ' + ${text}"></span>
+    <span th:text="${T(java.lang.Runtime).getRuntime().exec('open -a Calculator')}"></span>
+</body>
+</html>
