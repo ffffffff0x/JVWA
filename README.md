@@ -35,8 +35,9 @@ java 代码审计学习靶场,边学边完善
   - `http://127.0.0.1:8999/ssrf/1?url=` 无过滤
   - `http://127.0.0.1:8999/ssrf/2?url=` 重定向bypass
   - `http://127.0.0.1:8999/ssrf/safe?url=` 安全案例
-- ssti
-  - `http://127.0.0.1:8999/ssti?name=&name2=` 无过滤
+- ssti(Thymeleaf)
+  - `http://127.0.0.1:8999/ssti/1?name=&name2=` return可控(预处理)
+  - `http://127.0.0.1:8999/ssti/2?name=` 视图名称可控
 - log4j
 
 ---
