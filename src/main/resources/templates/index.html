@@ -29,17 +29,17 @@
 <div class="recipe_details">
 	<ul>
 		<li>spring actuator</a></li>
-			<p>/actuator</p>
-			<p>/actuator/env</p>
-			<p>/actuator/heapdump</p>
-			<p>/actuator/mappings</p>
-			<p>/actuator/prometheus</p>
+		<li><a href="/actuator">/actuator</a></li>
+		<li><a href="/actuator/env">/actuator/env</a></li>
+		<li><a href="/actuator/heapdump">/actuator/heapdump</a></li>
+		<li><a href="/actuator/mappings">/actuator/mappings</a></li>
+		<li><a href="/actuator/prometheus">/actuator/prometheus</a></li>
 		<li>swagger</a></li>
-			<p>/swagger-resources</p>
-			<p>/swagger-ui.html</p>
-			<p>/v2/api-docs</p>
+		<li><a href="/swagger-resources">/swagger-resources</a></li>
+		<li><a href="/swagger-ui.html">/swagger-ui.html</a></li>
+		<li><a href="/v2/api-docs">/v2/api-docs</a></li>
 		<li>druid</a></li>
-			<p>/druid/login.html</p>
+		<li><a href="/druid/login.html">/druid/login.html</a></li>
 	</ul>
 </div>
 
@@ -47,7 +47,7 @@
 <div class="recipe_details">
 	<ul>
 		<li>无过滤</a></li>
-			<p>/spel?exec=1</p>
+		<li><a href="/spel?exec=1">/spel?exec=1</a></li>
 	</ul>
 </div>
 
@@ -55,7 +55,7 @@
 <div class="recipe_details">
 	<ul>
 		<li>无过滤</a></li>
-			<p>/sqlinj/mysql/getbyid/1</p>
+		<li><a href="/sqlinj/mysql/getbyid/1">/sqlinj/mysql/getbyid/1</a></li>
 	</ul>
 </div>
 
@@ -63,7 +63,7 @@
 <div class="recipe_details">
 	<ul>
 		<li>无过滤</a></li>
-			<p>/sqlinj/postgre/getbyid/1</p>
+		<li><a href="/sqlinj/postgre/getbyid/1">/sqlinj/postgre/getbyid/1</a></li>
 	</ul>
 </div>
 
@@ -71,13 +71,14 @@
 <div class="recipe_details">
 	<ul>
 		<li>无过滤</li>
-            <p>/redirect/1?url=https://home.ffffffff0x.com</p>
+		<li><a href="/redirect/1?url=https://home.ffffffff0x.com">/redirect/1?url=https://home.ffffffff0x.com</a></li>
 		<li>可以被绕过的白名单案例</li>
-            <p>/redirect/2?url=https://home.ffffffff0x.com</p>
+		<li><a href="/redirect/2?url=https://home.ffffffff0x.com">/redirect/2?url=https://home.ffffffff0x.com</a></li>
 		<li>反斜杠绕过</li>
-            <p>/redirect/3?url=https://home.ffffffff0x.com</p>
+		<li><a href="/redirect/3?url=https://home.ffffffff0x.com">/redirect/3?url=https://home.ffffffff0x.com</a></li>
         <li>安全案例</li>
-            <p>/redirect/safe?url=https://home.ffffffff0x.com</p>
+		<li><a href="/redirect/safe?url=https://home.ffffffff0x.com">/redirect/safe?url=https://home.ffffffff0x.com</a></li>
+
     </ul>
 </div>
 
@@ -86,10 +87,11 @@
 	<ul>
 		<li>无过滤</li>
 		<p>/ssrf/1?url=https://home.ffffffff0x.com</p>
+		<li><a href="/ssrf/1?url=https://home.ffffffff0x.com">/ssrf/1?url=https://home.ffffffff0x.com</a></li>
 		<li>重定向绕过</li>
-		<p>/ssrf/2?url=https://home.ffffffff0x.com</p>
+		<li><a href="/ssrf/2?url=https://home.ffffffff0x.com">/ssrf/2?url=https://home.ffffffff0x.com</a></li>
 		<li>安全案例</li>
-		<p>/ssrf/safe?url=https://home.ffffffff0x.com</p>
+		<li><a href="/ssrf/safe?url=https://home.ffffffff0x.com">/ssrf/safe?url=https://home.ffffffff0x.com</a></li>
 	</ul>
 </div>
 
@@ -97,9 +99,9 @@
 <div class="recipe_details">
 	<ul>
 		<li>return可控(预处理)</li>
-		<p>/ssti/1?name=zhang3&name2=lisi</p>
+		<li><a href="/ssti/1?name=zhang3&name2=lisi">/ssti/1?name=zhang3&name2=lisi</a></li>
 		<li>视图名称可控</li>
-		<p>/ssti/2?name=zhang3</p>
+		<li><a href="/ssti/2?name=zhang3">/ssti/2?name=zhang3</a></li>
 	</ul>
 </div>
 
@@ -107,7 +109,27 @@
 <div class="recipe_details">
 	<ul>
 		<li>无过滤/黑名单过滤/白名单过滤/安全案例</a></li>
-			<p>/upload</p>
+		<li><a href="/upload">/upload</a></li>
+	</ul>
+</div>
+
+<h2>来源ip</h2>
+<div class="recipe_details">
+	<ul>
+		<li>getRemoteAddr</a></li>
+		<li><a href="/ipinfo/remote">/ipinfo/remote</a></li>
+		<li>X-Real-IP/X-Forwarded-For</a></li>
+		<li><a href="/ipinfo/xxf">/ipinfo/xxf</a></li>
+		<li>getRemoteAddr+X-Real-IP/X-Forwarded-For</a></li>
+		<li><a href="/ipinfo/realIp">/ipinfo/realIp</a></li>
+	</ul>
+</div>
+
+<h2>信息泄露</h2>
+<div class="recipe_details">
+	<ul>
+		<li>aksk信息泄露</a></li>
+		<li><a href="/infoleak/aksk">/infoleak/aksk</a></li>
 	</ul>
 </div>
 
